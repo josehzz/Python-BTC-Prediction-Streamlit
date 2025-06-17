@@ -8,5 +8,4 @@ nbconvert
 tensorflow
 xgboost
 ta
-talib
 sklearn
