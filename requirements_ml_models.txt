@@ -1,0 +1,11 @@
+matplotlib
+yfinance
+datetime
+streamlit
+plotly
+jupyter
+nbconvert
+tensorflow
+xgboost
+ta
+scikit-learn
