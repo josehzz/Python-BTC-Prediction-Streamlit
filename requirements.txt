@@ -8,4 +8,4 @@ nbconvert
 tensorflow
 xgboost
 ta
-sklearn
+scikit-learn
