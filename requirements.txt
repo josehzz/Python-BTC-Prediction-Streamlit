@@ -3,3 +3,10 @@ yfinance
 datetime
 streamlit
 plotly
+jupyter
+nbconvert
+tensorflow
+xgboost
+ta
+talib
+sklearn

@@ -115,3 +115,11 @@ fig.update_layout(
 
 # Display in Streamlit
 st.plotly_chart(fig, use_container_width=True)
+
+# Links
+medium_url = ""
+linkedin_url = "https://www.linkedin.com/in/josehzz/"
+st.write("How it was made: (Comming soon)")
+st.write("Contact me: [link](%s)" % linkedin_url)
+
+st.write("Last Update: ", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
