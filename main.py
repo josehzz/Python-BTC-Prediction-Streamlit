@@ -60,8 +60,8 @@ today = pd.to_datetime(datetime.now().date())
 fig = go.Figure()
 
 fig.add_trace(go.Scatter(
-    x=btc_data['Date'][-60:],
-    y=btc_data['Close'][-60:],
+    x=btc_data['Date'][-40:],
+    y=btc_data['Close'][-40:],
     name='Real Price',
     line=dict(color='white', width=1, backoff=1),
     hovertemplate='Date: %{x|%Y-%m-%d}<br>Price: $%{y:.2f}<extra></extra>'
@@ -84,8 +84,8 @@ fig.add_trace(go.Scatter(
 ))
 
 fig.add_trace(go.Scatter(
-    x=btc_future_data['Date'][-60-projection_days:],
-    y=btc_future_data['SMA'][-60-projection_days:],
+    x=btc_future_data['Date'][-40-projection_days:],
+    y=btc_future_data['SMA'][-40-projection_days:],
     name='SMA',
     line=dict(color='green', dash='dash'),
     hovertemplate='Date: %{x|%Y-%m-%d}<br>Price: $%{y:.2f}<extra></extra>'
