@@ -5,7 +5,7 @@ on:
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
-  update-predictions:
+  reload-streamlit-app:
     runs-on: ubuntu-latest
     permissions:
        contents: write
