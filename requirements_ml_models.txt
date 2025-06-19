@@ -9,4 +9,3 @@ tensorflow
 xgboost
 ta
 scikit-learn
-webbrowser
