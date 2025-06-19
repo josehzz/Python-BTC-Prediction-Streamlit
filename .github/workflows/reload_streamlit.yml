@@ -1,4 +1,4 @@
-name: Update BTC Predictions
+name: Reload Streamlit App
 on:
   schedule:
     - cron: '0 0 */1 * *'  # Every day at midnight
