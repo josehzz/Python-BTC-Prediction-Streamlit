@@ -3,4 +3,3 @@ yfinance
 datetime
 streamlit
 plotly
-time
