@@ -59,15 +59,6 @@ today = pd.to_datetime(datetime.now().date())
 
 fig = go.Figure()
 
-# Add traces
-fig.add_trace(go.Scatter(
-    x=btc_data['Date'][-60:],
-    y=btc_data['Close'][-60:],
-    name='Real Price',
-    line=dict(color='black', width=2, backoff=0),
-    hovertemplate='Date: %{x|%Y-%m-%d}<br>Price: $%{y:.2f}<extra></extra>'
-))
-
 fig.add_trace(go.Scatter(
     x=btc_data['Date'][-60:],
     y=btc_data['Close'][-60:],

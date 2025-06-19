@@ -1,7 +1,7 @@
 name: Update BTC Predictions
 on:
   schedule:
-    - cron: '0 0 */3 * *'  # Every 3 days at midnight
+    - cron: '0 0 */2 * *'  # Every 2 days at midnight
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -47,3 +47,7 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Force Streamlit app rebuild
+      run: |
+        python open_streamlit_app.py
