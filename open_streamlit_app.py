@@ -6,4 +6,4 @@ import time
 url = "https://python-btc-prediction.streamlit.app/"
 webbrowser.open(url)
 
-time.sleep(5)
+time.sleep(3)

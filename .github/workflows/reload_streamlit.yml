@@ -1,7 +1,7 @@
 name: Reload Streamlit App
 on:
   schedule:
-    - cron: '0 0 */1 * *'  # Every day at midnight
+    - cron: '0 */8 * * *'  # Every 8 hours
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
